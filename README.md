@@ -1,7 +1,8 @@
 # Basic Webcontrol
 
-Basic template that can be used to learn CRUD
+Basic template that can be used to learn CRUD.
 
+[![Github All Releases](https://img.shields.io/github/downloads/webcontrol-tech/the-basic/total.svg)]()
 
 ![Alt text](1.%20Login.png?raw=true "Login Page")
 
