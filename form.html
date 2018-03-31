@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Form | Webcontrol</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Webcontrol Style -->
+    <link href="css/webcontrol.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 account-nav">
+          <ul>
+            <li><p>Signed in as Taufiq</p></li>
+            <li><a href="#" alt="Change Password" title="Change Password"><i class="fa fa-key" aria-hidden="true"></i></a></li>
+            <li><a href="#" alt="Sign Out" title="Sign Out"><i class="fa fa-lock" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span>WEB</span>CONTROL</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Current <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+
+          <h1 class="page-header">Users <small class="hidden-xs">Add Data</small><a href="#" class="btn btn-xs action-back float-right" aria-label="Back" title="Back"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></h1>
+
+          <form>
+
+            <div class="col-sm-9 form-left"> 
+
+              <div class="form-group form-box">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                <p class="help-block help-block-success"><i class="fa fa-check-circle" aria-hidden="true"></i> Example block-level help text here.</p>
+              </div>
+
+              <div class="form-group form-box">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                <p class="help-block help-block-error"><i class="fa fa-times-circle" aria-hidden="true"></i> Example block-level help text here.</p>
+              </div>
+
+              <div class="form-group form-box">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+              </div>
+
+              <div class="form-group form-box">
+                <label for="password_confirmation">Password Confirmation</label>
+                <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" placeholder="Password Confirmation">
+              </div>
+
+            </div>
+
+            <div class="col-sm-3 form-right"> 
+
+              <div class="form-group form-box">
+                <label for="level">Level</label>
+                <select class="form-control" name="level">
+                  <option value="0">User</option>
+                  <option value="1">Writer</option>
+                  <option value="2">Editor</option>
+                  <option value="3">Admin</option>
+                  <option value="4">Super Admin</option>
+                </select>   
+              </div>
+
+              <div class="form-group form-box">
+                <label for="status">Status</label>
+                <div class="radio">
+                  <label><input type="radio" name="is_verified" id="status" value="0" checked> Not Verified</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="is_verified" id="status" value="1"> Verified</label>
+                </div>
+                <p class="help-block"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Example block-level help text here.</p>
+              </div>
+
+              <button type="submit" class="btn btn-default">Save</button>
+              <p class="help-block"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Example block-level help text here.</p>
+              
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer navbar-fixed-bottom">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">WEBCONTROL &copy; 2018</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

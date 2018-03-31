@@ -1,0 +1,96 @@
+html, body { font-family: 'Comfortaa', cursive; font-weight: 300; font-size: 12px; margin-bottom: 65px; }
+.footer { padding: 20px 0px; background-color: #ffffff; border-top: 1px solid #f2f2f2; }
+
+/*login page*/
+
+h1.webcontrol { font-weight: 300; color: #ffffff; }
+h1.webcontrol-alt { font-weight: 300; color: #333333; text-align: center; margin-bottom: 70px; }
+h1.webcontrol span { font-weight: 300; color: #00B454; }
+h1.webcontrol-alt span { font-weight: 300; color: #00B454; }
+
+.full-height { height:100vh; }
+.center-content { justify-content: center; display: flex; align-items: center; }
+
+.login-banner { background-color: #333333; }
+.login-content { width: 320px; }
+
+/*end login page*/
+
+/*navbar*/
+
+.navbar { border: none; border-radius: 0px; }
+.navbar-default { background-color: #333333; }
+.navbar-default .navbar-brand { color: #ffffff; }
+.navbar-default .navbar-brand:hover { color: #ffffff; }
+.navbar-default .navbar-brand span { color: #00B454; }
+
+.navbar-default .navbar-toggle { border: none; }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: transparent; }
+.navbar-default .navbar-toggle .icon-bar { background-color: #00B454; }
+
+.navbar-collapse { border: none; }
+.dropdown-menu .divider { background-color: #00B454; margin: 4px 0; }
+
+.navbar-default .navbar-nav > li > a { color: #ffffff; }
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover { color: #00B454; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover { color: #ffffff; background-color: #00B454; }
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover { color: #ffffff; background-color: #00B454; }
+.dropdown-menu { background-color: #333333; font-size: 12px; border-top: none; border-right: 5px solid #00B454; border-bottom: 1px solid #333333; border-left: 1px solid #333333; border-radius: 0px; box-shadow: none; -webkit-box-shadow: none; }
+.dropdown-menu > li > a { font-weight: 300; color: #ffffff; }
+.dropdown-menu > li > a:hover { font-weight: 300; color: #00B454; background-color: transparent; }
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #ffffff; }
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { color: #00B454; }
+}
+
+.account-nav { min-height: 30px; background-color: #d1594b; text-align: right; }
+.account-nav ul { margin: 0; padding: 0; font-size: 0; }
+.account-nav ul li { display: inline-block; font-size: 10px; }
+.account-nav ul li p { padding: 8px; margin: 0px; color: #ffffff; display:inline-block }
+.account-nav ul li a { width: 30px; padding: 8px 0px; color: #ffffff; background-color: #333333; display: block; text-align: center; }
+.account-nav ul li a:hover { color: #00B454; background-color: #333333; }
+
+/*end navbar*/
+
+/*table*/
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th { padding: 10px; vertical-align: middle; }
+.table-striped > tbody > tr:nth-of-type(2n+1) { background-color: #f2f2f2; }
+.table > tbody > tr.success > td, .table > tbody > tr.success > th, .table > tbody > tr > td.success, .table > tbody > tr > th.success, .table > tfoot > tr.success > td, .table > tfoot > tr.success > th, .table > tfoot > tr > td.success, .table > tfoot > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th, .table > thead > tr > td.success, .table > thead > tr > th.success { background-color: #00B454; color: #ffffff; }
+.table > tbody > tr.danger > td, .table > tbody > tr.danger > th, .table > tbody > tr > td.danger, .table > tbody > tr > th.danger, .table > tfoot > tr.danger > td, .table > tfoot > tr.danger > th, .table > tfoot > tr > td.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > thead > tr.danger > th, .table > thead > tr > td.danger, .table > thead > tr > th.danger { background-color: #d1594b; color: #ffffff; }
+
+.float-right { float: right; margin-top: 4px; }
+a.action-add { background-color: #ffffff; border: 1px solid #00B454; color: #00B454; padding: 5px 10px; text-decoration: none; border-radius: 4px; }
+a.action-add:hover { background-color: #00B454; color: #ffffff; }
+a.action-edit { background-color: #ffffff; border: 1px solid #00B454; color: #00B454; padding: 5px 10px; text-decoration: none; border-radius: 4px; }
+a.action-edit:hover { background-color: #00B454; color: #ffffff; }
+a.action-delete { background-color: #ffffff; border: 1px solid #d1594b; color: #d1594b; padding: 5px 10px; text-decoration: none; border-radius: 4px; }
+a.action-delete:hover { background-color: #d1594b; color: #ffffff; }
+a.action-back { background-color: #ffffff; border: 1px solid #d1594b; color: #d1594b; padding: 5px 10px; text-decoration: none; border-radius: 4px; }
+a.action-back:hover { background-color: #d1594b; color: #ffffff; }
+
+/*end table*/
+
+/*pagination*/
+.pagination > li > a, .pagination > li > span { color: #555; }
+.pagination > li > a:hover, .pagination > li > span:hover { color: #ffffff; background-color: #00B454; border: 1px solid #00B454; }
+/*end pagination*/
+
+/*form*/
+.form-box { background-color: #fafafa; padding: 20px 15px 15px 15px; border-radius: 5px; border: 1px solid #ddd; }
+.form-left { padding-left: 0px; }
+.form-right { padding-right: 0px; margin-bottom: 25px; }
+@media (max-width: 767px) {
+	.form-left { padding-right: 0px; }
+	.form-right { padding-left: 0px; }
+}
+/*end form*/
+
+/*others*/
+
+.help-block { background-color: #f2f2f2; padding: 3px 6px; border-radius: 4px; font-size: 11px; }
+.help-block-error { background-color: #d1594b; color: #ffffff; padding: 3px 6px; border-radius: 4px; font-size: 11px; }
+.help-block-success { background-color: #00B454; color: #ffffff; padding: 3px 6px; border-radius: 4px; font-size: 11px; }
+
+/*end others*/
